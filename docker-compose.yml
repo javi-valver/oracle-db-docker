@@ -7,6 +7,4 @@ services:
     ports:
       - 1521:1521
     volumes:
-      - ./setup.sql:/opt/oracle/scripts/startup/01_setup.sql
-      - ./insert_users.sql:/opt/oracle/scripts/startup/02_insert_users.sql
-      - ./tarea3bd.sql:/opt/oracle/scripts/startup/tarea3bd.sql
+      - ./tarea3.sql:/opt/oracle/scripts/startup/tarea3.sql
