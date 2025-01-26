@@ -13,3 +13,17 @@ docker compose down -v
 ```
 docker compose up -d
 ```
+
+## Git
+* Añadir archivos que quieres subir (añade todos los cambios que haya en el proyecto)
+  ```
+  git add -A
+  ```
+* Crear commit añadiendo un mensaje
+  ```
+  git commit -m "<mensaje>"
+  ```
+* Subit los cambios al repositorio
+  ```
+  git push
+  ```
